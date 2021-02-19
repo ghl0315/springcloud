@@ -5,6 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <modules>
     <module>eurekaServer</module>
+    <module>product-data-service</module>
   </modules>
   <name>springcloud</name>
   <description>springcloud</description>
@@ -34,6 +35,11 @@
       <groupId>cn.hutool</groupId>
       <artifactId>hutool-all</artifactId>
       <version>4.3.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <scope>provided</scope>
     </dependency>
   </dependencies>
 
