@@ -6,3 +6,4 @@ spring:
   application:
     name: product-view-service-feign
 
+feign.hystrix.enabled: true
