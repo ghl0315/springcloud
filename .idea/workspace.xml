@@ -3,19 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f9afbbe7-66ed-4d3e-8a6d-b1127ee5b975" name="Default Changelist" comment="断路器 网关">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-view-service-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-view-service-feign/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-view-service-feign/src/main/java/cn/how2j/springcloud/feign/ProductClientFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-view-service-feign/src/main/java/cn/how2j/springcloud/feign/ProductClientFeign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-view-service-feign/src/main/resource/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product-view-service-feign/src/main/resource/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-view-service-feign/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-view-service-feign/target/classes/cn/how2j/springcloud/ProductViewServiceFeignApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-view-service-feign/target/classes/cn/how2j/springcloud/controller/ProductController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-view-service-feign/target/classes/cn/how2j/springcloud/feign/ProductClientFeign.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-view-service-feign/target/classes/cn/how2j/springcloud/pojo/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-view-service-feign/target/test-classes/cn/how2j/springcloud/AppTest.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +31,11 @@
         <option name="userSettingsFile" value="D:\maven\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1oeiRlgj0tExTiqCX3ILZ3OLw1q" />
   <component name="PropertiesComponent">
@@ -58,6 +53,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -79,7 +75,54 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProductDataServiceApplication">
+  <component name="RunManager" selected="Spring Boot.ProductServiceZuulApplication">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="product-data-service" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="product-data-service" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="eurekaServer" />
       <extension name="coverage">
@@ -147,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ProductDataServiceApplication" />
+        <item itemvalue="Spring Boot.ProductServiceZuulApplication" />
         <item itemvalue="Spring Boot.ProductViewServiceFeignApplication" />
+        <item itemvalue="Spring Boot.ProductDataServiceApplication" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
         <item itemvalue="Spring Boot.ProductServiceZuulApplication (1)" />
-        <item itemvalue="Spring Boot.ProductServiceZuulApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +250,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
