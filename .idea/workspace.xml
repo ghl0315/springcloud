@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9afbbe7-66ed-4d3e-8a6d-b1127ee5b975" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-data-service/product-data-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-view-service-feign/product-view-service-feign.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaServer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,6 +24,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -51,6 +51,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.how2j.springcloud.pojo" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -63,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProductDataServiceApplication">
+  <component name="RunManager" selected="Spring Boot.ProductViewServiceFeignApplication">
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="eurekaServer" />
       <extension name="coverage">
@@ -90,8 +95,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductViewServiceFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="product-view-service-feign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.how2j.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.how2j.springcloud.ProductViewServiceFeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ProductViewServiceFeignApplication" />
         <item itemvalue="Spring Boot.ProductDataServiceApplication" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
       </list>
@@ -108,8 +127,16 @@
       <option name="presentableId" value="Default" />
       <updated>1613653450946</updated>
       <workItem from="1613653453605" duration="2037000" />
-      <workItem from="1613699920592" duration="2037000" />
+      <workItem from="1613699920592" duration="4932000" />
     </task>
+    <task id="LOCAL-00001" summary="注册新服务">
+      <created>1613702057257</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613702057257</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,5 +152,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="注册新服务" />
+    <option name="LAST_COMMIT_MESSAGE" value="注册新服务" />
   </component>
 </project>
