@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9afbbe7-66ed-4d3e-8a6d-b1127ee5b975" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/product-view-service-feign/product-view-service-feign.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurekaServer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +49,9 @@
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.how2j.springcloud.pojo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\springcloud" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -127,7 +125,7 @@
       <option name="presentableId" value="Default" />
       <updated>1613653450946</updated>
       <workItem from="1613653453605" duration="2037000" />
-      <workItem from="1613699920592" duration="4932000" />
+      <workItem from="1613699920592" duration="5363000" />
     </task>
     <task id="LOCAL-00001" summary="注册新服务">
       <created>1613702057257</created>
@@ -136,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613702057257</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feign调用">
+      <created>1613705185986</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613705185986</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +160,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="注册新服务" />
-    <option name="LAST_COMMIT_MESSAGE" value="注册新服务" />
+    <MESSAGE value="feign调用" />
+    <option name="LAST_COMMIT_MESSAGE" value="feign调用" />
   </component>
 </project>
