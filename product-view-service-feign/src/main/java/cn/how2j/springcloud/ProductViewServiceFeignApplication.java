@@ -18,8 +18,8 @@ import cn.hutool.core.util.NetUtil;
 import cn.hutool.core.util.NumberUtil;
 
 @SpringBootApplication
-@EnableEurekaClient
-@EnableDiscoveryClient
+@EnableEurekaClient //只能被eureka发现
+@EnableDiscoveryClient //可以被任何注册中心发现
 @EnableFeignClients
 public class ProductViewServiceFeignApplication {
 
